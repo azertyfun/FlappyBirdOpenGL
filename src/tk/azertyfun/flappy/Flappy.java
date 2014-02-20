@@ -97,7 +97,7 @@ public class Flappy {
 			lastFrame = Util.getTime();
 			
 			Display.update();
-			Display.sync(9999999);
+			Display.sync(60);
 		}
 		
 		Display.destroy();
